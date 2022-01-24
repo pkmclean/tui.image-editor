@@ -27,7 +27,7 @@ class Draw extends Submenu {
       lineSelectButton: this.selector('.tie-draw-line-select-button'),
       drawColorPicker: new Colorpicker(
         this.selector('.tie-draw-color'),
-        '#00a9ff',
+        '#000000',
         this.toggleDirection,
         this.usageStatistics
       ),

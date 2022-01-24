@@ -29,7 +29,7 @@ class Icon extends Submenu {
       addIconButton: this.selector('.tie-icon-add-button'),
       iconColorpicker: new Colorpicker(
         this.selector('.tie-icon-color'),
-        '#ffbb3b',
+        '#000000',
         this.toggleDirection,
         this.usageStatistics
       ),
